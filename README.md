@@ -71,13 +71,18 @@ This model supports **auditability, traceability, and reproducibility** of finan
 
 ## High-Level System Flow
 
-Live Market Prices
-↓
-Portfolio Valuation
-↓
-Risk Metric Calculation
-↓
-Risk Limit Monitoring & Alerts
+1. **Live Market Prices**  
+   Continuous price updates for financial instruments are generated as immutable market events.
+
+2. **Portfolio Valuation**  
+   Market prices are combined with portfolio holdings to compute real-time portfolio value and P&L.
+
+3. **Risk Metric Calculation**  
+   Streaming risk analytics derive volatility and Value at Risk (VaR) using rolling time windows.
+
+4. **Risk Limit Monitoring & Alerts**  
+   Calculated risk metrics are evaluated against predefined thresholds and alerts are generated when limits are breached.
+
 
 
 
