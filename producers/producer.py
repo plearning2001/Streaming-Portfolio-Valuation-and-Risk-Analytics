@@ -11,9 +11,8 @@ while True:
     event = {
         "asset": random.choice(assets),
         "price": round(random.uniform(100, 300), 2),
-        "qty": random.randint(1, 50)
+        # "qty": random.randint(1, 50)
     }
-    print("Hii")
 
     producer.produce(
         "transactions",
